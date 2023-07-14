@@ -1,5 +1,5 @@
 # tebak-angka
-program sederhana tebak angka,dalam rangka beajar rust
+program sederhana tebak angka,dalam rangka belajar rust
 
 ## dependency(dependensi)
 - rust programming
