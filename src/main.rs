@@ -1,8 +1,6 @@
 use rand::Rng;
 use std::io::{self, Write};
 
-//use rand::Rng;
-
 fn main() {
     //program simple random dice(dadu)
     loop {
@@ -51,11 +49,11 @@ fn main() {
 
             //win or lose
             if input_user > dice {
-                println!("dadu lebih kecil");
+                println!("dadu lebih kecil tebakanmu belum tepat!!!");
             } else if input_user == dice {
-                println!("kau menang");
+                println!("selamat tebakan mu benar!!!");
             } else {
-                println!("dadu lebih besar");
+                println!("dadu lebih besar tebakanmu belum tepat!!!");
             }
         } else if input == "n" {
             break;
